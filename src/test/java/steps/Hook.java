@@ -25,7 +25,7 @@ public class Hook extends BaseUtil{
         System.out.println("Opening the browser : Firefox");
 
         //Chrome driver
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         base.Driver = new ChromeDriver();
     }
 
